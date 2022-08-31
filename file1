@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: fatimapod
+  selector:
+    app: fatima
+spec:
+  replicas: 2
+  labels:
+    
